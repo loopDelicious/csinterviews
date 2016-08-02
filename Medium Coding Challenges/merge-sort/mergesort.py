@@ -11,6 +11,7 @@
 def merge_sort(lst):
     """Divide and conquer: reduce to lists of 0-1 items, then recombine."""
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

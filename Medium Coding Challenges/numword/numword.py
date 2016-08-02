@@ -58,18 +58,37 @@ TENS = ["", "", "twenty ", "thirty ", "forty ", "fifty ", "sixty ",
 
 THOUSANDS = ["", "thousand ", "million ", "billion "]
 
+def handle_cluster(num):
+    out = ''
+    if num >= 100: # handle hundreds
+        out += ONES[num / 100] + 'hundred '
+        num %= 100
+    elif num >= 20: # handle tens
+        out += TENS[num / 10]
+        num %= 10
+    else: # handle singles and teens
+        out += ONES[num]
+    return out
+
 def num_word(num):
     """Convert word to number."""
 
-    word = ''
-    num_string = str(num)
+    if num_word < 0:
+        return "negative " + num_word(abs(num))
 
-    if num_string == '0':
-        return word += 'zero'
+    out = ""
+    cluster = 0
 
-    if num_string[0] == "+":
-        word += "negative"
+    while num > 0:
+        cluster_val = num % 1000
+        num = num / 1000
 
+        if cluster_val > 0:
+            out = handle_cluster(cluster_val) + THOUSANDS[cluster] + out
+
+        cluster += 1
+
+    return out.rstrip() or "zero"
 
 if __name__ == '__main__':
     import doctest

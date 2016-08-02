@@ -203,3 +203,90 @@ def kth_smallest(matrix, k):
 # output all possibilities that sum to 100 using [+,-,nothing] and single digit integers [1-9]
 def sum_to_100():
 
+def pramp():
+   print "Practice Makes Perfect"
+
+pramp()
+
+arr =  [2, 7, 3, 4]
+res =  [7*3*4, 2*3*4, 2*7*4, 2*7*3]
+
+def products(arr):
+   
+   results = []
+   
+   for i in range(arr):
+      for j in range(arr)
+         product = 1
+         if i == j:
+            continue
+         product *= arr[j]
+      results.append(product)
+   return results
+     
+
+arr = [0, 3, 4]
+i == 1
+
+left = []
+left[0] = 1
+#general forumula
+left[i] = left[i-1]*arr[i-1]
+
+Refael/Rafi
+rafi@pramp.com
+
+product = 3
+
+product = product*5
+
+def products2(arr):
+   left = [1]
+   for i in range(1,len(arr)):
+      left[i] = left[i-1]*arr[i-1]
+
+   right = [1] * len(arr)   
+   for i in range(len(arr)-1,-1,-1):
+      right[i] = right[i+1]*arr[i+1]
+   
+   #result = []
+   for i in range(len(arr)):
+      left[i] = left[i]*right[i]
+      #result.append(left[i]*right[i])
+   return left
+
+# Given a package with a weight limit and an array arr of item weights, 
+# how can you most efficiently find two items with sum of weights that equals the weight limit?
+# Your function should return 2 such indices of item weights or -1 if such pair doesn't exist.
+# What is the runtime and space complexity of your solution?
+# in: limit, arr
+# out: 2 indices
+def find_two(limit, arr):  # O(n^2) nested for loops
+    for i, item in enumerate(arr):
+        for j, item2 in enumerate(arr):
+            if item + item2 == limit:
+                return [i,j]
+    return -1
+def find_two2(limit, arr): # O(n) create dict, and loop through arr to find complementary weight
+    weight_dict = {weight: index for index, weight in enumerate(arr)}
+    for i, w in enumerate(arr):
+        if limit-w in weight_dict:
+            return i, weight_dict[limit-w]
+    return -1
+    # alternative way to create dict
+    weight_dict = {}
+    for i, w in enumerate(arr):
+        if w in weight_dict:
+            continue
+        else:
+            weight_dict[w] = i
+    # but wait, we don't want to hash the weight before checking if the complement exists (could pick the same weight)
+    weight_dict = {}
+    for i, w in enumerate(arr):
+        if limit - w in weight_dict:
+            return i, weight_dict[limit-w]
+        else:
+            weight_dict[w] = i
+    return -1
+    
+

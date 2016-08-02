@@ -90,7 +90,6 @@ class BinaryNode(object):
         """Is the tree at this node balanced?"""
 
 
-
 if __name__ == '__main__':
     import doctest
 
