@@ -31,14 +31,11 @@ For example:
     True
 """
 
-
 def coins(num_coins):
     """Find change from combinations of `num_coins` of dimes and pennies.
 
     This should return a set of the unique amounts of change possible.
     """
-
-
 
 if __name__ == '__main__':
     import doctest

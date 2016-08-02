@@ -39,6 +39,23 @@ than pick nothing!):
 def largest_sum(nums):
     """Find subsequence with largest sum."""
 
+    best_sum = 0
+    start_of_best = 0
+    end_of_best = -1
+
+    current_sum = 0
+    start_of_current = 0
+
+    for i, n in enumerate(nums):
+        current_sum += n
+        if current_sum > best_sum:
+            best_sum = current_sum
+            start_of_best = start_of_current 
+            end_of_best = i
+        if current_sum <= 0:
+            start_of_current = i + 1
+            y
+
 
 
 if __name__ == '__main__':

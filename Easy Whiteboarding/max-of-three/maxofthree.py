@@ -23,15 +23,6 @@ For example::
 def max_of_three(num1, num2, num3):
     """Returns the largest of three integers"""
 
-    maximum = num1
-
-    if num2 > maximum:
-        maximum = num2
-
-    if num3 > maximum:
-        maximum = num3
-
-    return maximum
 
 if __name__ == '__main__':
     import doctest

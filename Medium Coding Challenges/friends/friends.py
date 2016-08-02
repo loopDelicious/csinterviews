@@ -129,6 +129,9 @@ class FriendGraph(object):
 
 
 
+
+
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

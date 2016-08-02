@@ -288,5 +288,41 @@ def find_two2(limit, arr): # O(n) create dict, and loop through arr to find comp
         else:
             weight_dict[w] = i
     return -1
+
+# chicken wings (word_positions) keep 2 pointers of indices in each array
+word_positions = {
+    "chicken": [29, 35, 46, 59, 67, 99],
+    "wings": [30, 47, 78, 100],
+}
+def find_phrase(word_positions):
+    """given a dictionary of words and their positions in a corpus, return occurrences of "chicken wings"""
     
+    chicken = word_positions[chicken]
+    wings = word_positions[wings]
+
+    results = []
+
+    # O(n^2) runtime O(n*m)
+    # for integer in chicken:
+    #     if integer + 1 in wings:
+    #         results.append(integer)
+    index = 0
+    while index < len(chicken):
+        if chicken[index] == wings[index] + 1:
+            results.append(chicken[index])
+        if
+    
+
+# find 3 numbers that sum to 0, return True (use set of seen, set of sum) - Kara github study hall
+# find 3 numbers with the highest product
+# keep track of things you've seen from the array so you don't have to loop through again (save runtime)
+
+# model a pinball machine - keep track of 10 highest scores, data types, data model, one to many and many to many, association tables
+# data algorithms in binary heaps
+# is_bst = is a binary tree a binary search tree
+# coins
+# spiral print a matrix
+# rabbit eating carrots on a matrix, max number of carrots, and only stepping on places that have carrots (asana)
+
+
 

@@ -25,14 +25,6 @@ For example::
 def max_num(num_list):
     """Returns largest integer from given list"""
 
-    maximum = num_list[0]
-    
-    for num in num_list:
-        if num > maximum:
-            maximum = num
-
-    return maximum
-
 
 if __name__ == '__main__':
     import doctest

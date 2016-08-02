@@ -20,13 +20,6 @@ def rev_string(astring):
     You may NOT use the reversed() function!
     """
 
-    # return astring[::-1]
-
-    new_string = ""
-    for i in range(len(astring)):
-        new_string += astring[-i-1]
-
-    return new_string
 
 
 if __name__ == '__main__':

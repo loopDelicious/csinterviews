@@ -54,7 +54,6 @@ def check(king, queen):
     row, likr "D6" and "B7":
     """
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

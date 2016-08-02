@@ -32,15 +32,7 @@ by both 3 and 5, say 'fizzbuzz'. Otherwise, say the number.
 def fizzbuzz():
     """Count from 1 to 20 in fizzbuzz fashion."""
 
-    for item in range(1,21):
-        if item % 5 == 0 and item % 3 == 0:
-            print "fizzbuzz"
-        elif item % 3 == 0:
-            print "fizz"
-        elif item % 5 == 0:
-            print "buzz"
-        else:
-            print item
+
 
 if __name__ == '__main__':
     import doctest
