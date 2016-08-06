@@ -1,4 +1,5 @@
-"""Is the tree at this node balanced?
+""" implement a function to check if a binary tree is balanced, defined as a tree such that
+the heights of the 2 subtrees of any node never differ by more than one
 
 To make this a bit more readable, let's alias our class name:
 
@@ -75,8 +76,8 @@ Imbalanced Four:
     ...              N(3), N(4)))
     >>> tree4i.is_balanced()
     False
-"""
 
+"""
 
 class BinaryNode(object):
     """Node in a binary tree."""
@@ -89,10 +90,31 @@ class BinaryNode(object):
     def is_balanced(self):
         """Is the tree at this node balanced?"""
 
+        def _num_descendants(node):
+
+            if not node:
+                return 0
+
+            left = _num_descendants(node.left)
+            right = _num_descendants(node.right)
+
+            if left is None:
+                return None
+
+            if right is None:
+                return None
+
+            if abs(left-right) > 1:
+                return None
+
+            return max(left, right) + 1
+
+        return _num_descendants(self) is not None
 
 
 if __name__ == '__main__':
     import doctest
 
     if doctest.testmod().failed == 0:
-        print "\n*** ALL TEST PASSED! GO GO GO!\n"
+        print "\n*** ALL TEST PASSED! SO BALANCED!\n"
+

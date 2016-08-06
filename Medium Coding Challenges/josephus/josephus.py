@@ -16,14 +16,6 @@ As a sanity case, if never skip anyone, the last person will be our survivor:
 def find_survivor(num_people, kill_every):
     """Given num_people in circle, kill [kill_every]th person, return survivor."""
 
-    people = range(1,num_people + 1)
-    kill_every -= 1
-    index = kill_every
-    while len(people) > 1:
-        people.pop(index)
-        index = (index + kill_every) % len(people)
-    return people[0]
-
 
 
 if __name__ == '__main__':
