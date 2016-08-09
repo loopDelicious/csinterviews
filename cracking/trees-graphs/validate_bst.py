@@ -1,14 +1,12 @@
 """ implement a function to determine if a binary tree is a binary search tree """
 
+class BinaryNode(object):
 
-def validate_bst(node, min=None, max=None):
+    def __init__(self, data, left=None, right=None):
+        self.data = data
+        self.left = left
+        self.right = right
 
-    if not node:  # base case for recursion
-        return None
-
-    if (min is not None and node.data <= min) or (max is not None and node.data > max):
-        return False
-
-    if not validate_bst(node.left, min, node.data) or not validate_bst(node.right, node.data, max):
-        return False
+def is_bst(node, min=None, max=None):
+    """ is binary tree a binary search tree """
 
