@@ -21,36 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="remove-dups.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remove-dups.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="return-kth-to-last.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/return-kth-to-last.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linked-lists.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../linked-lists.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="merging.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../pramp/merging.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="array_products.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="array_products.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../pramp/array_products.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
@@ -91,11 +61,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trees.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../trees.py">
+      <file leaf-file-name="WWC.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../Coding/theGreatEScrape/scrapers/WWC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="e#62#91#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../Coding/react/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../Coding/react/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../../Coding/react/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indeed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../Coding/theGreatEScrape/scrapers/indeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#249#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theGreatEScrape.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../Coding/theGreatEScrape/theGreatEScrape.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -120,6 +144,12 @@
         <option value="$PROJECT_DIR$/../../pramp/h_tree.py" />
         <option value="$PROJECT_DIR$/../../pramp/array_index.py" />
         <option value="$PROJECT_DIR$/../../pramp/array_products.py" />
+        <option value="$PROJECT_DIR$/../../../../Coding/theGreatEScrape/theGreatEScrape.py" />
+        <option value="$PROJECT_DIR$/../../../../Coding/theGreatEScrape/scrapers/WWC.py" />
+        <option value="$PROJECT_DIR$/../../../../Coding/theGreatEScrape/scrapers/indeed.py" />
+        <option value="$PROJECT_DIR$/../../../../Coding/react/webpack.config.js" />
+        <option value="$PROJECT_DIR$/../../../../Coding/react/Main.js" />
+        <option value="$PROJECT_DIR$/../../../../Coding/react/index.html" />
       </list>
     </option>
   </component>
@@ -130,8 +160,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="70" />
+    <option name="x" value="36" />
+    <option name="y" value="94" />
     <option name="width" value="1260" />
     <option name="height" value="733" />
   </component>
@@ -187,7 +217,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pramp/array_products.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Coding/react/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -291,15 +321,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470262331423</updated>
-      <workItem from="1470262332790" duration="12603000" />
+      <workItem from="1470262332790" duration="18527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12603000" />
+    <option name="totallyTimeSpent" value="18527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="70" width="1260" height="733" extended-state="0" />
+    <frame x="36" y="94" width="1260" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -412,6 +442,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Coding/theGreatEScrape/theGreatEScrape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Coding/theGreatEScrape/scrapers/indeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#249#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Coding/theGreatEScrape/scrapers/WWC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="e#62#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Coding/react/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Coding/react/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Coding/react/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
