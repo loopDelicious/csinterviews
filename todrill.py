@@ -213,16 +213,15 @@ res =  [7*3*4, 2*3*4, 2*7*4, 2*7*3]
 
 def products(arr):
    
-   results = []
-   
-   for i in range(arr):
-      for j in range(arr)
-         product = 1
-         if i == j:
-            continue
-         product *= arr[j]
-      results.append(product)
-   return results
+    results = []
+    for i in range(len(arr)):
+        product = 1
+        for j in range(len(arr)):
+            if i == j:
+                continue
+            product *= arr[j]
+        results.append(product)
+    return results
      
 
 arr = [0, 3, 4]
@@ -324,5 +323,86 @@ def find_phrase(word_positions):
 # spiral print a matrix
 # rabbit eating carrots on a matrix, max number of carrots, and only stepping on places that have carrots (asana)
 
+def pramp():
+   print "Practice Makes Perfect"
+
+pramp()
+
+# In: { time: 1440084737,  count: 5,  type: "enter" }
+# In: { time: 1440084737,  count: -4,  type: "exit" }
+# In: { time: 1440084738,  count: 3,  type: "enter" }
+#[ In: { time: 1440084738,  count: -2,  type: "exit" }]
+# Out: [1440084737, 1440084738]
+
+# if the max count is in the last second:
+# # Out: [1440084738, 1440084738]
+
+# sort array (by time) 
+# initialize population variable that incr enter and decr exit
+# iterate over sorted array: 
+# if population at current time > curr_pop, update var
+
+def busy(arr):
+   """ determine the second of maximum population in the mall. """
+   
+   sorted(arr)
+   
+   population = 0
+   max_population = 0
+   time_stamp = arr[0][0]
+   
+   for i, timeslot in enumerate(arr):
+      
+      if arr[i][2] == "enter":
+          population += arr[i][1]
+      else:
+         population -= arr[i][1]
+      if population > max_population:
+         max_population = population
+         time_stamp = arr[i][0]
+         
+   return [time_stamp, time_stamp + 1]
+      
+
+
+
+   [(time: x, count: y, type: z),...]
+   
+   
+   
+#    know timsort complexity
+
+# [ 'p', 'e', 'r', 'f', 'e', 'c', 't', '  ', 'm', 'a', 'k', 'e', 's', '  ', 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e' ]
+# [ 'p', 'r', 'a', 'c', 't', 'i', 'c', 'e', '  ', 'm', 'a', 'k', 'e', 's', '  ', 'p', 'e', 'r', 'f', 'e', 'c', 't' ]
+# ['practice', ...]
+
+Language:Python
+End Interview
+
+def sentence_reverse(arr):
+   """ reverse the words, separated by space """
+   
+   word = ""
+   new_arr = []
+   #curr_index = range(len(arr))
+   #start_index = range(len(arr))
+   
+   
+   for i, char in range(len(arr)-1, 0, -1):
+      if char != " ":
+         word += char
+      else:
+         word = reverse(word)
+         if curr_index > 0:
+            word += " "
+         new_arr.append(word)
+   return new_arr
+
+
+
+# def reverseWord():
+#    while word[start_index] != " ":
+#          start_index -= 1      
+#       new_arr.append(word[start_index+1:curr_index])   
 
 
