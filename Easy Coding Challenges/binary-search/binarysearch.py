@@ -27,7 +27,9 @@ def binary_search(val):
 
     assert 0 < val < 101, "Val must be between 1-100"
 
+    num_guesses = 0
 
+    # Start Solution
 
 
 

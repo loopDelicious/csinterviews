@@ -27,6 +27,11 @@ It cannot use deadly branch (1 in the list).
 def  lemur(branches):
     """Return number of jumps needed."""
 
+    assert branches[0] == 0, "First branch must be alive"
+    assert branches[-1] == 0, "Last branch must be alive"
+
+    # Start solution
+
 
 
 if __name__ == '__main__':

@@ -6,7 +6,12 @@ def missing_number(nums, max_num):
 
     *nums*: list of numbers 1..[max_num]; exactly one digit will be missing.
     *max_num*: Largest potential number in list
+
+    >>> missing_number([1, 2, 3, 4, 5, 6, 7, 9, 10], 10)
+    8
+
     """
+
 
 if __name__ == '__main__':
     import doctest

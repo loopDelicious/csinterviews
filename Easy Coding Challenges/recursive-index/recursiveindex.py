@@ -29,6 +29,7 @@ def recursive_index(needle, haystack):
     Do this with recursion. You MAY NOT USE A `for` OR `while` LOOP.
     """
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

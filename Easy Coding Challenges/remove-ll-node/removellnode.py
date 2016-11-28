@@ -61,6 +61,7 @@ def remove_node(node):
     Does not return anything; changes list in place.
     """
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
