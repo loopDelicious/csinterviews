@@ -65,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/../../pramp/get_diff_num.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -209,7 +209,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pramp/get_diff_num.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/exercism/python/leap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
@@ -824,12 +824,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470449617057</updated>
-      <workItem from="1470449618460" duration="11119000" />
+      <workItem from="1470449618460" duration="12221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11119000" />
+    <option name="totallyTimeSpent" value="12221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="55" width="1260" height="733" extended-state="0" />
@@ -960,7 +960,7 @@
     <entry file="file://$PROJECT_DIR$/../../pramp/get_diff_num.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

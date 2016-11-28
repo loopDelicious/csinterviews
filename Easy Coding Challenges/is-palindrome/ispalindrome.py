@@ -24,8 +24,6 @@ def is_palindrome(word):
 
 
 
-
-
 if __name__ == '__main__':
     import doctest
 

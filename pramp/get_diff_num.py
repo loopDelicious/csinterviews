@@ -23,7 +23,7 @@ def get_diff(arr):
     #         max = item
     # return max + 1
 
-    
+
 
 if __name__ == '__main__':
     import doctest
