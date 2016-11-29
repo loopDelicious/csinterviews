@@ -23,6 +23,7 @@ def is_palindrome(word):
     """Return True/False if this word is a palindrome."""
 
 
+
 if __name__ == '__main__':
     import doctest
 

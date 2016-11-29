@@ -25,7 +25,6 @@ def sum_list(num_list):
     """Return the sum of all numbers in list."""
 
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

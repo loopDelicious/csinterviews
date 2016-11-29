@@ -22,7 +22,6 @@ def concat_lists(list1, list2):
     """Combine lists."""
 
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

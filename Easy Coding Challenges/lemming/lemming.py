@@ -20,6 +20,7 @@ def furthest(num_holes, cafes):
     """Find longest distance between a hole and a cafe."""
 
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
