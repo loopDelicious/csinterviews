@@ -31,7 +31,7 @@ def rev_list_in_place(lst):
     You cannot do this with reversed(), .reverse(), or list slice
     assignment!
     """
- 
+
 
 if __name__ == '__main__':
     import doctest

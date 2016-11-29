@@ -26,6 +26,7 @@ def max_num(num_list):
     """Returns largest integer from given list"""
 
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

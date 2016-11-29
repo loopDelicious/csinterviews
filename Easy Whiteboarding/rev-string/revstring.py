@@ -21,7 +21,6 @@ def rev_string(astring):
     """
 
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
