@@ -15,7 +15,6 @@
 
 def calc(s):
     """Evaluate expression."""
-    
 
 
 if __name__ == '__main__':

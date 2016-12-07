@@ -94,6 +94,10 @@ def lunch_count(garden):
     nrows = len(garden)
     ncols = len(garden[0])
 
+    # Start SOLUTION
+
+    start = 
+
 
 if __name__ == '__main__':
     import doctest

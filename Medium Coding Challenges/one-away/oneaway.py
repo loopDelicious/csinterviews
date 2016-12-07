@@ -31,8 +31,6 @@ def one_away(w1, w2):
     """Given two strings, are they, at most, one edit away?"""
 
 
-
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
