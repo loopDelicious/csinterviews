@@ -14,7 +14,6 @@ def print_recursively(lst):
     """Print items in the list, using recursion."""
 
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

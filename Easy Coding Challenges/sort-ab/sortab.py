@@ -26,7 +26,6 @@ def sort_ab(a, b):
     You may not use sorted() or .sort().
     """
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

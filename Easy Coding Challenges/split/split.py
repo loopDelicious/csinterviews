@@ -29,6 +29,7 @@ def split(astring, splitter):
     """Split astring by splitter and return list of splits."""
 
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
