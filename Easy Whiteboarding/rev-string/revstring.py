@@ -19,9 +19,6 @@ def rev_string(astring):
 
     You may NOT use the reversed() function!
     """
-    i = 0
-    for i in range(len(astring)):
-
 
 
 if __name__ == '__main__':

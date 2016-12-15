@@ -33,9 +33,6 @@ def  lemur(branches):
     # Start solution
 
 
-
-
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

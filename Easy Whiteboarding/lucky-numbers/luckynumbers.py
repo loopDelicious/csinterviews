@@ -24,7 +24,6 @@ def lucky_numbers(n):
     """Return n unique random numbers from 1-10 (inclusive)."""
 
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:

@@ -9,7 +9,10 @@
 
 
 def translate_leet(str):
-    """Translates input into l33t."""
+    """Translates input into l33t.
+    Translate to 1337 speak (replace o w 0, e w 3, L w 1, s w 5, t w 7)"""
+
+
 
 
 if __name__ == '__main__':

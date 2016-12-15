@@ -12,6 +12,8 @@ def snake_to_camel(str):
     """Given a string in snake_case, return the same string in camelCase"""
 
 
+
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
