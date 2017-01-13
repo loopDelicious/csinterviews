@@ -14,6 +14,7 @@ def missing_number(nums, max_num):
 
 
 
+
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
